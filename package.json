@@ -40,6 +40,9 @@
     "ci-docs": "pnpm build && pnpm docs-build",
     "merge-changelog": "tsx scripts/mergeChangelog.ts"
   },
+  "dependencies": {
+    "jscrambler": "8.14.0"
+  },
   "devDependencies": {
     "@eslint/js": "^9.39.4",
     "@type-challenges/utils": "^0.1.1",
