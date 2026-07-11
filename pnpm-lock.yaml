@@ -26,6 +26,10 @@ patchedDependencies:
 importers:
 
   .:
+    dependencies:
+      jscrambler:
+        specifier: 8.14.0
+        version: 8.14.0
     devDependencies:
       '@eslint/js':
         specifier: ^9.39.4
@@ -6183,6 +6187,11 @@ packages:
 
   js-yaml@4.1.1:
     resolution: {integrity: sha512-qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA==}
+    hasBin: true
+
+  jscrambler@8.14.0:
+    resolution: {integrity: sha512-5Tw720lM5aDPrneq3flBqWb1Wo/Di7VCy8QZtcwYiKK5h4xeOabKgdg3FUyq1MyDzDj+XRo2f5WwvpIutdISTQ==}
+    engines: {node: '>= 12.17.0'}
     hasBin: true
 
   jsdoc-type-pratt-parser@7.1.0:
